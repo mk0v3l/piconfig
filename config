@@ -2,9 +2,9 @@ sudo apt update
 sudo apt install zsh -y && chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+sudo apt install git
 git config --global user.email mickaelkovel@hotmail.com
 git config --global user.name mk0v3l
-sudo apt install git
 sudo apt install python3-pip
 sudo pip3 install adafruit-circuitpython-ads1x15 --break-system-packages
 sudo apt install vim -y
